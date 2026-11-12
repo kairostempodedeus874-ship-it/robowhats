@@ -1,0 +1,23 @@
+{
+  "name": "kairoswpp-server",
+  "version": "6.1.0",
+  "description": "Servidor WhatsApp Kairós (Baileys 7) — 8080/3000/3001 · QR com recuperação automática · pré-cobrança 7h/16h + confirmação de pagamento",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.49.4",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "node-cron": "3.0.3",
+    "pino": "9.5.0",
+    "qrcode": "1.5.4"
+  }
+}
